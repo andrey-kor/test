@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/NewAppCalory/static/css/main.b93345fd.chunk.css",
-    "main.js": "/NewAppCalory/static/js/main.f48d78e3.chunk.js",
-    "main.js.map": "/NewAppCalory/static/js/main.f48d78e3.chunk.js.map",
-    "runtime-main.js": "/NewAppCalory/static/js/runtime-main.7d2c35ad.js",
-    "runtime-main.js.map": "/NewAppCalory/static/js/runtime-main.7d2c35ad.js.map",
-    "static/js/2.1af13fab.chunk.js": "/NewAppCalory/static/js/2.1af13fab.chunk.js",
-    "static/js/2.1af13fab.chunk.js.map": "/NewAppCalory/static/js/2.1af13fab.chunk.js.map",
-    "index.html": "/NewAppCalory/index.html",
-    "precache-manifest.ac95a69aec8866f2a569602ebd414105.js": "/NewAppCalory/precache-manifest.ac95a69aec8866f2a569602ebd414105.js",
-    "service-worker.js": "/NewAppCalory/service-worker.js",
-    "static/css/main.b93345fd.chunk.css.map": "/NewAppCalory/static/css/main.b93345fd.chunk.css.map",
-    "static/js/2.1af13fab.chunk.js.LICENSE.txt": "/NewAppCalory/static/js/2.1af13fab.chunk.js.LICENSE.txt",
-    "static/media/arrow-left.svg": "/NewAppCalory/static/media/arrow-left.8974c844.svg",
-    "static/media/arrow-right.svg": "/NewAppCalory/static/media/arrow-right.c4a46511.svg",
-    "static/media/burger.svg": "/NewAppCalory/static/media/burger.c8c669ff.svg",
-    "static/media/clock.svg": "/NewAppCalory/static/media/clock.caa9e924.svg"
+    "main.css": "/test/static/css/main.b93345fd.chunk.css",
+    "main.js": "/test/static/js/main.8c8dd7a3.chunk.js",
+    "main.js.map": "/test/static/js/main.8c8dd7a3.chunk.js.map",
+    "runtime-main.js": "/test/static/js/runtime-main.85f9dbba.js",
+    "runtime-main.js.map": "/test/static/js/runtime-main.85f9dbba.js.map",
+    "static/js/2.1af13fab.chunk.js": "/test/static/js/2.1af13fab.chunk.js",
+    "static/js/2.1af13fab.chunk.js.map": "/test/static/js/2.1af13fab.chunk.js.map",
+    "index.html": "/test/index.html",
+    "precache-manifest.2c47474756a749d5e92f57ae50d0e992.js": "/test/precache-manifest.2c47474756a749d5e92f57ae50d0e992.js",
+    "service-worker.js": "/test/service-worker.js",
+    "static/css/main.b93345fd.chunk.css.map": "/test/static/css/main.b93345fd.chunk.css.map",
+    "static/js/2.1af13fab.chunk.js.LICENSE.txt": "/test/static/js/2.1af13fab.chunk.js.LICENSE.txt",
+    "static/media/arrow-left.svg": "/test/static/media/arrow-left.8974c844.svg",
+    "static/media/arrow-right.svg": "/test/static/media/arrow-right.c4a46511.svg",
+    "static/media/burger.svg": "/test/static/media/burger.c8c669ff.svg",
+    "static/media/clock.svg": "/test/static/media/clock.caa9e924.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d2c35ad.js",
+    "static/js/runtime-main.85f9dbba.js",
     "static/js/2.1af13fab.chunk.js",
     "static/css/main.b93345fd.chunk.css",
-    "static/js/main.f48d78e3.chunk.js"
+    "static/js/main.8c8dd7a3.chunk.js"
   ]
 }
