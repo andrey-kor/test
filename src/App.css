@@ -1,38 +1,308 @@
-.App {
+.popup__outer{
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    transition: .5s;
+
+}
+
+.popup__wrapper{
+  background: #fff9df;
+  border: 2px solid #fae899;
+  border-radius: 20px;
+  width: 430px;
+}
+
+.popup__form{
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__wrapper{
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.span-wrapper{
+  margin: 0 30px 0 0;
+  display: flex;
+  width: 150px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.span-wrapper div{
+  margin: 0 10px;
+ display: flex;
+ align-items: center;
+}
+
+.input-sex{
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.input-text{
+  font-size: 18px;
+  padding: 0 10px 0 0;
+}
+
+.popup-input{
+  width: 150px;  
+  height: 25px;
+  margin: 0 30px 0 0;
+  font-size: 16px;
+}
+.popup__error{
+  margin: 0 10px;
+  height: 30px;
+  color: red;
+}
+
+.popup__buttonSend{
+  margin: 10px 0 5px 0;
+  outline: none;
+  height: 40px;
+  border: 3px solid #f8e179;
+  border-radius: 10px;
+  color: #292522;
+  font-size: 16px;
+  font-weight: 600;
+  background: #fff9df;
+  transition: .3s
+}
+
+.popup__buttonSend:hover{
+  background: #f8e179;
+  cursor: pointer;
+}
+
+.wrapper{
+  max-width: 550px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media(max-width: 400px){
+  .wrapper{
+    min-width: 400px;
+  }
+}
+
+.block{
+  border: 2px solid #fae899;
+  background-color: #fff9df;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.canvasBlock{
+  border: 2px solid #fae899;
+  background-color: #fff9df;
+  border-radius: 20px;
+  margin: 0 0 20px 0
+}
+
+#canvas{
+  margin: 20px;
+  overflow: auto;
+}
+
+.subtitle{
+  text-align: center;
+  margin: 10px 0 30px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dateNav__wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dateNav__button{
+  display: flex;
+  justify-content: center;
+  flex: 1 0 auto;
+}
+
+.dateNav__button:hover{
+  cursor: pointer;
+}
+
+.wrapper__arrow-left, .wrapper__arrow-right{
+  width: 45px;
+  height: 45px;
+}
+
+.dateNav__arrow{
+  width: 100%;
+  height: 100%;
+}
+
+.eatingItem-list{
+  list-style: none;
+}
+
+.li{
+  margin: 10px 0 10px 0;
+}
+
+.buttonRm{
+  outline: none;
+  margin: 0 15px 0 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  background: rgb(240, 160, 160);
+  transition: .3s;
+}
+
+.buttonRm:hover{
+  background: rgb(212, 63, 63);
+  cursor: pointer;
+}
+
+.liNum{
+  margin: 0 10px 0 0;
+}
+
+.eating-time{
+  margin: 0 20px 0 0;
+}
+
+.eatingSum{
+  display: flex;
+  align-items: center;
+}
+
+.eatingSum__num{
+  margin: 0 0 0 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-wrapper{
+margin: 30px 0 20px 0;
+}
+
+.form__addEatingItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 576px){
+  .form__addEatingItem{
+    flex-direction: column;
+  }
+}
+
+.wrapper-inputItemBlock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.imageClock, .imageEat{
+  width: 35px;
+  height: 35px;
+  margin: 0 10px 0 0;
+}
+
+.time__wrapper{
+position: relative;
+}
+
+.timeMenu{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  overflow: auto;
+  display: none;
+  border: 1px solid #000000;
+  background: #fff;
+  width: 66px;
+  height: 150px;
+}
+
+.timeMenu:hover{
+  cursor: pointer;
+}
+
+.timeMenu-ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.timeMenu-li{
+  transition: .3s;
+  padding: 2px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.timeMenu-li:hover{
+  background: #fae899;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addEatingItem-time, .addEatingItem-kal{
+  width: 60px;  
+  height: 25px;
+  margin: 0 30px 0 0;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.valid{
+  border: 1px solid rgb(120, 212, 120);
+  box-shadow: rgb(120, 212, 120) 0 0 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.invalid{
+  border: 1px solid rgb(231, 80, 80);
+  box-shadow: rgb(231, 80, 80) 0 0 5px;
+
+}
+
+.form__button{
+  margin: 10px 0 5px 0;
+  outline: none;
+  height: 30px;
+  border: 3px solid #f8e179;
+  border-radius: 10px;
+  color: #292522;
+  font-weight: 600;
+  background: #fff9df;
+  transition: .3s
+}
+
+.form__button:hover{
+  background: #f8e179;
+  cursor: pointer;
+}
+
+.buttonOf{
+  opacity: 0.5;
+}
+
+.errorTime, .errorKal{
+  margin: 0 0 0 5px;
+  height: 15px;
+  font-size: 14px;
+  color: rgb(246, 77, 77);
 }
